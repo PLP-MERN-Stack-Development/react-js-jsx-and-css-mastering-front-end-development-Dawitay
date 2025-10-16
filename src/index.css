@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom styles */
+html, body, #root { height: 100%; }
+body { @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100; }
+.container { @apply max-w-5xl mx-auto px-4; }
